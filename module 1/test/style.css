@@ -1,0 +1,73 @@
+body {
+    margin: 0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header,
+header ul {
+    color: white;
+    background-color: rgb(46, 0, 88);
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    align-items: center;
+}
+header li {
+    margin: 10px;
+    font-size: 16pt;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.logo {
+    margin: 20px;
+    font-size: 22pt;
+}
+.page {
+    text-align: center;
+}
+.premier,
+.sales {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    padding: 30px;
+    background-color: rgb(208, 200, 255);
+    font-size: 16pt;
+}
+.sale {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    max-width: 25%;
+}
+.film {
+    max-width: 60%;
+}
+.premier .image {
+    height: 500px;
+    width: 300px;
+    background-color: gray;
+}
+.sale .image {
+
+    margin: 40px 0px 0px 0px;
+}
+.name {
+    font-size: 22pt;
+    font-weight: bold;
+    margin: 40px 0px 0px 0px;
+}
+.button {
+    background-color: rgb(46, 0, 88);
+    color: white;
+    padding: 20px;
+    margin: 40px 0px 0px 0px;
+    cursor: pointer;
+}
+.description {
+    margin: 40px 0px 0px 0px;
+}
